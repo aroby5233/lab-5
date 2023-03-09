@@ -1,0 +1,14 @@
+public class employee {
+    int employeeid;
+    String employeeName;
+
+    public employee(int id, String name) {
+        employeeid= id;
+        employeeName = name;
+    }
+
+    public static void main(String[] args) {
+        employee myinfo = new employee(id:5694, name:"liya");
+        System.out.println(myinfo.employeeid + " " + myinfo.employeeName);
+    }
+}
